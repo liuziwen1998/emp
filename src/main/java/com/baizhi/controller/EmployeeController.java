@@ -23,4 +23,11 @@ public class EmployeeController {
     }
 
 
+    @RequestMapping("insert")
+    public String insert(Employee employee) {
+
+        return "";
+
+    }
+
 }
